@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+#particle-container {
+  overflow-x: hidden;
+  position: fixed;
+  background: rgba(0, 0, 0, 0) linear-gradient(45deg, rgb(45, 54, 76) 0%, rgb(37, 45, 63) 100%) repeat scroll 0% 0%;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  z-index: -1;
+}
+
+.field {
+  padding-top: 50vh;
+  width: 20vw;
+  min-width: 200px;
+  position: absolute;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  align-content: center;
+  z-index: 2;
+}
+
+#description {
+  position: inherit;
+  margin-top: 5vh;
+  margin-left: 10px;
+  font-size: 1.3vh;
+  color: #dcdcdc;
+  font-family: 'Roboto';
+}
+
+#title-container {
+  color: #dcdcdc;
+  position: absolute;
+  margin: 40px;
+  padding: 40px;
+  font-family: 'Merriweather';
+  font-size: 8vh;
+  width: 40vw;
+  min-width: 250px;
+}
+
+#geet-container {
+  position: absolute;
+  display: grid;
+  grid-column-gap: 50px;
+  left: 50%;
+  min-height: 20vh;
+  top: 60vh;
+  height: auto;
+  transform: translate(-50%, -50%);
+  align-content: center;
+}
+
+#grid-container {
+  position: absolute;
+  margin-top: 35vh;
+}
